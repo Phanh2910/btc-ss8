@@ -7,7 +7,9 @@ int main(){
 	for(i = 0; i < sizeof(ar)/sizeof(int); i++){
 	if (random != ar[i]){
 		printf("so ban chon khong nam trong tap hop cua toi !!!");
-	}else{
+		return 0;
+	            }
+	else{
 		printf("so ban chon nam trong tap hop cua toi va no o vi tri thu %d !!!", i + 1);
 		break;
 	}
